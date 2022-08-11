@@ -88,7 +88,7 @@ function App() {
 	return (
 		<main>
 			{tenzies && <Confetti />}
-			<h2>Best Time: {bestTime}</h2>
+			<h2 className="best-time">Best Time: {bestTime}</h2>
 			<h1 className="title">Tenzies</h1>
 			<p className="instructions">
 				Roll until all dice are the same. Click each dice to freeze it at its
